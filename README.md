@@ -24,3 +24,10 @@ Methodology:<br />
 
 Dataset Description:<br />
 We have got the bitcoin price data from Yahoo Finance. In this data contain columns Date, Open, High, Low, Close, Adj Close. We are only using column Date and Adj Close. After we divide the data between training data and test data both data will split into Y_train, X_train or Y_test, X_test respectively. In case of training data both of dataset will be use to create model. In case of test data, one dataset will be used to predict values and other dataset use check how predicted value overlap over real value.
+![image](https://user-images.githubusercontent.com/72352984/130312752-baf29494-92c5-44dc-8035-4585987930e2.png)
+
+Description of Test Data
+
+![image](https://user-images.githubusercontent.com/72352984/130312758-462ec850-5e2a-4cde-a255-84d7b6906dd2.png)
+
+
