@@ -24,10 +24,36 @@ Methodology:<br />
 
 Dataset Description:<br />
 We have got the bitcoin price data from Yahoo Finance. In this data contain columns Date, Open, High, Low, Close, Adj Close. We are only using column Date and Adj Close. After we divide the data between training data and test data both data will split into Y_train, X_train or Y_test, X_test respectively. In case of training data both of dataset will be use to create model. In case of test data, one dataset will be used to predict values and other dataset use check how predicted value overlap over real value.
+Description of Training Data
+
 ![image](https://user-images.githubusercontent.com/72352984/130312752-baf29494-92c5-44dc-8035-4585987930e2.png)
 
 Description of Test Data
 
 ![image](https://user-images.githubusercontent.com/72352984/130312758-462ec850-5e2a-4cde-a255-84d7b6906dd2.png)
 
+Linear Regression-
+
+It is a way define relationship between two variables. In this regression model target prediction value based on independent variables. For our purpose we try to create a Linear Regression model using training data. 
+y = B0 + B1*x
+y = value to be predicted
+x = independent variable
+B0 = intercept or bias coefficient
+B1 = scale factor coefficient
+When a coefficient becomes zero, it effectively removes the influence of the input variable on the model and thus from the prediction made up of the model (0 * x = 0). This becomes relevant if you check out regularization methods that change the training algorithm to scale back the complexity of regression models by putting pressure on absolutely the size of the coefficients, driving some to zero.
+
+Lasso Regression:
+
+The “LASSO” stands for Least Absolute Shrinkage and Selection Operator. Lasso regression is a regularization technique. It is used over regression methods for a more accurate prediction. This model uses shrinkage. Shrinkage is where data values are shrunk towards a central point as the mean. The lasso procedure encourages simple, sparse models (i.e. models with fewer parameters).
+Residual Sum of Squares + λ * (Sum of the absolute value of the magnitude of coefficients)
+
+![image](https://user-images.githubusercontent.com/72352984/130312791-c7843e97-2e28-4ed5-aebd-35c884b49507.png)
+
+
+Where,
+λ denotes the amount of shrinkage.
+λ = 0 implies all features are considered and it's like the rectilinear regression where only the residual sum of squares is taken into account to create a predictive model
+λ = ∞ implies no feature is considered i.e, as λ closes to infinity it eliminates more and more features
+The bias increases with increase in λ
+variance increases with decrease in λ
 
