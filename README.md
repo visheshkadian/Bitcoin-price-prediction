@@ -57,3 +57,32 @@ Where,
 The bias increases with increase in λ
 variance increases with decrease in λ
 
+Ridge Regression:
+
+Ridge regression is used to analyze data which have multicollinearity. This method performs L2 regularization. In ridge regression, the primary step is to standardize the variables (both dependent and independent) by subtracting their means and dividing by their standard deviations. This causes a challenge in notation since we must somehow indicate whether the variables in a particular formula are standardized or not. As far as standardization cares, all ridge regression calculations are supported standardized variables.
+Y = XB + e
+Where Y is that the variable, X represents the independent variables, B is that the regression coefficients to be estimated, and e represents the errors are residuals.
+
+KNN Regression:
+
+K nearest neighbors may be a simple algorithm that stores all available cases and predict the numerical target supported a similarity measure (e.g., distance functions). A simple implementation of KNN regression is to calculate the average of the numerical target of the K nearest neighbors. Another approach uses an inverse distance weighted average of the K nearest neighbors. KNN regression uses the same distance functions as KNN classification.
+Choosing the optimal value for K is best done by first inspecting the info. In general, a large K value is more precise as it reduces the overall noise.
+
+![image](https://user-images.githubusercontent.com/72352984/130312811-a6e146d6-d9c3-4bca-ad46-0322b50a5389.png)
+
+Choosing the optimal value for K is best done by first inspecting the data. In general, a large K value is more precise as it reduces the overall noise.
+
+Polynomial Regression:
+Polynomial Regression is a regression algorithm that models the relationship between a dependent(y) and independent variable(x) as nth degree polynomial. The Polynomial Regression equation is given below:
+y= b0+b1x1+ b2x12+ b2x13+...... bnx1n
+It is also called the special case of Multiple Linear Regression in ML. Because we add some polynomial terms to the Multiple Linear regression equation to convert it into Polynomial Regression.It is a linear model with some modification in order to increase the accuracy.The dataset used in Polynomial regression for training is of non-linear nature.It makes use of a linear regression model to fit the complicated and non-linear functions and datasets.Hence, "In Polynomial regression, the original features are converted into Polynomial features of required degree (2,3,..,n) and then modeled using a linear model."
+SVM regression:
+More formally, a support-vector machine constructs a hyperplane or set of hyperplanes in a high- or infinite-dimensional space, which can be used for classification, regression, or other tasks like outliers detection.Intuitively, a good separation is achieved by the hyperplane that has the largest distance to the nearest training-data point of any class (so-called functional margin), since in general the larger the margin, the lower the generalization error of the classifier.
+
+Y = wx+b (equation of hyperplane)
+The boundary condition is:
+-a < Y- wx+b < +a 
+
+
+![image](https://user-images.githubusercontent.com/72352984/130312841-27ed42f6-a767-4c6f-8f02-520054f165d0.png)
+
