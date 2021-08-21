@@ -1,8 +1,8 @@
 # Bitcoin-price-prediction
 
 Abstract:<br />
-This document deal ever changing price of bitcoins or in general cryptocurrency. The fluctuations in the price of these cryptocurrency can be many things like personal, no authorized sanctions, disbelief time to time. This can be seen in recent years when practically non existing cryptocurrency like dogecoin by some comment from Elon Musk sore higher prices. This makes you think that this cryptocurrency is more like gambling other calculated change in price like in case different classic money. For that purpose, we tried to predict bitcoin prices by creating different models using different regression techniques.
-This doesn’t mean that the model we have created in document perfect for future prices also these models created using previous 5 years bitcoin price data by dividing between training and testing data. Score or accuracy we talk about in this document is just about overlapping real prices with predicted prices given models.
+This project deal ever changing price of bitcoins or in general cryptocurrency. The fluctuations in the price of these cryptocurrency can be many things like personal, no authorized sanctions, disbelief time to time. This can be seen in recent years when practically non existing cryptocurrency like dogecoin by some comment from Elon Musk sore higher prices. This makes you think that this cryptocurrency is more like gambling other calculated change in price like in case different classic money. For that purpose, we tried to predict bitcoin prices by creating different models using different regression techniques.
+This doesn’t mean that the model we have created in document perfect for future prices also these models created using previous 5 years bitcoin price data by dividing between training and testing data. Score or accuracy we talk about in this project is just about overlapping real prices with predicted prices given models.
 
 Keywords: models, data, regression, price, predict, bitcoin<br /><br />
 Introduction:<br />
