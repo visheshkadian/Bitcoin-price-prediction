@@ -73,10 +73,13 @@ Choosing the optimal value for K is best done by first inspecting the info. In g
 Choosing the optimal value for K is best done by first inspecting the data. In general, a large K value is more precise as it reduces the overall noise.
 
 Polynomial Regression:
+
 Polynomial Regression is a regression algorithm that models the relationship between a dependent(y) and independent variable(x) as nth degree polynomial. The Polynomial Regression equation is given below:
-y= b0+b1x1+ b2x12+ b2x13+...... bnx1n
+                              y= b0+b1x1+ b2x12+ b2x13+...... bnx1n
 It is also called the special case of Multiple Linear Regression in ML. Because we add some polynomial terms to the Multiple Linear regression equation to convert it into Polynomial Regression.It is a linear model with some modification in order to increase the accuracy.The dataset used in Polynomial regression for training is of non-linear nature.It makes use of a linear regression model to fit the complicated and non-linear functions and datasets.Hence, "In Polynomial regression, the original features are converted into Polynomial features of required degree (2,3,..,n) and then modeled using a linear model."
+
 SVM regression:
+
 More formally, a support-vector machine constructs a hyperplane or set of hyperplanes in a high- or infinite-dimensional space, which can be used for classification, regression, or other tasks like outliers detection.Intuitively, a good separation is achieved by the hyperplane that has the largest distance to the nearest training-data point of any class (so-called functional margin), since in general the larger the margin, the lower the generalization error of the classifier.
 
 Y = wx+b (equation of hyperplane)
