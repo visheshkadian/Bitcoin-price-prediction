@@ -16,7 +16,7 @@ These are the different models we implemented in our project by the use of machi
 KNN Regression<br />
 Polynomial Regression<br />
 SVM regression<br />
-By using these models we made comparison between them by accuracy
+By using these models we made comparison between them by accuracy<br />
 Problem Definition:<br />
 We present a Bitcoin price fluctuation prediction problem since many investors care more about whether the sudden rise or fall is worth following. This problem can be simply described as the different behaviors of the Bitcoin price after a certain percentage change (i.e., rise or fall). For instance, if the Bitcoin price reverses after a rapid rising, following the rising price is harmful to investors since investors would make a loss in this case. Otherwise, if the price keeps rising after a rapid rising, it is good for investors since they can make more profits when following the rapid rising. We try to use all methods and models for prediction of prices of Bitcoin. Then use that predicted data prices for better and more accurate result of prices of bitcoin.
 
