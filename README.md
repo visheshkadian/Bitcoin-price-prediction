@@ -9,7 +9,7 @@ Introduction:<br />
 Virtual currencies are a form of cryptocurrency which is an impressive technical achievement in digital marketing, nevertheless. Virtual currencies live on, and they couldn’t fully replace fiat or conventional currencies. The popularity of virtual currencies is due to its innovative characteristics such as transparency, simplicity, and increasing acceptance through the world. In the current time, bitcoin is the popular flourishing virtual currency. Bitcoin may be a peer-to-peer cryptocurrency during which all transactions aren't regulated or controlled by any third party. Third-party intervention between customers is impossible. It is highly volatile market price working 24/7. Market capitalization of bitcoin is increased through time to time. In the current time, more than 71 billion of dollars publicly traded. Due to its open-source nature, clear, transparent, simple, and time is saving which leads all virtual currencies within the world. In this project we will try to predict prices of bitcoin using graphs and various model for analysis.
 Literature Survey:<br />
 Our project builds on various previous research. The purpose of one of study is to predict the price of Bitcoin and changes therein using models.
-These are the different models we implemented in our project by the use of machine learning
+These are the different models we implemented in our project by the use of machine learning<br />
 Linear Regression<br />
 Lasso Regression<br />
 Ridge Regression<br />
